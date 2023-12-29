@@ -17,3 +17,7 @@ Displays text on the Uno R4 Wifi board's LED matrix
 [Code for the Arduino Uno R4 Wifi](./uno-r4-wifi/README.md)
 
 [Arduino: Getting Started](https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started)
+
+### Arduino Giga R1 Wifi
+
+[Arduino: Getting Started](https://docs.arduino.cc/tutorials/giga-r1-wifi/giga-getting-started)
