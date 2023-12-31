@@ -1,14 +1,22 @@
 # Arduino Playground
 
-## Project Descriptions
+## Basic Projects
+
+### Nitro LEDs
+
+Displays text on the Uno R4 Wifi board's LED matrix
 
 ### Toggle LEDs 
 
 Toggles two LEDs on the Arduino IoT Kit RP2040 board
 
-### Nitro LEDs
+## Advanced Projects 
 
-Displays text on the Uno R4 Wifi board's LED matrix
+### Temperature Display
+
+Displays the temperature on the Uno R4 Wifi board's LED matrix
+
+TODO: ramp fan using PWM based on temperature
 
 ## Device Setup and Original Code
 
