@@ -28,23 +28,18 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
-  /* Initialize serial and wait for port to open: */
-  Serial.begin(9600);
-  /* This delay gives the chance to wait for a Serial Monitor without blocking if none is found */
-  delay(1500);
+  lcd.setCursor(0, 0);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+  lcd.clear();
   int temperature = get_temperature();
-  String tempString = String(temperature);
-  lcd.setCursor(0, 0);
-  lcd.print("Temperature: " + tempString);
+  lcd.print("Temperature: " + String(temperature));
   delay(2000);
 }
 
 float get_temperature() {
-
   int reading = analogRead(tempPin);
   float voltage = reading * 3.3;
   voltage /= 1024.0;
