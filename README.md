@@ -18,7 +18,11 @@ Displays the temperature on the Uno R4 Wifi board's LED matrix
 
 TODO: ramp fan using PWM based on temperature
 
-## Device Setup and Original Code
+## Devices, Setup, and Original Firmware
+
+### Arduino IoT Bundle (Nano RP2040 Connect)
+
+[Tutorials](https://docs.arduino.cc/hardware/iot-bundle/#tutorials)
 
 ### Arduino Uno R4 Wifi
 
@@ -29,3 +33,5 @@ TODO: ramp fan using PWM based on temperature
 ### Arduino Giga R1 Wifi
 
 [Arduino: Getting Started](https://docs.arduino.cc/tutorials/giga-r1-wifi/giga-getting-started)
+
+[Camera Support](https://docs.arduino.cc/tutorials/giga-r1-wifi/giga-camera/)
